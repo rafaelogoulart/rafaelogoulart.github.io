@@ -1,0 +1,84 @@
+input[type="checkbox"] {
+  margin-right: 0;
+}
+
+.container {
+  background-color: #0779e4;
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-right: 0;
+}
+.container h2{
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+}
+.result-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 10px 40px 10px 10px ;
+  height: 50px;
+  width: 100%;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100%-50px);
+  margin-left: 0;
+  color: white;
+}
+
+.result-container .btn {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+  background-color: #0059ac;
+  padding: 10px;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  color: white;
+}
+.setting label
+{
+  margin-left: 0;
+}
+.setting input
+{
+  margin-left: 10px;
+  margin-right: 0;
+}
+.setting p {
+  margin-right: 0;
+}

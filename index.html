@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help Desk</title>
+  <link rel="stylesheet" href="src/styles/reset.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/button.css">
+  <link rel="stylesheet" href="style/senha.css">
+</head>
+
+<body onload="btnMenuAA(), btnMenuAD(), btnMenuTV()">
+  <div id="interface">
+    <header>
+      <div id="ml-wrapper">
+        <div class="limit">
+          <div id="ml-header">
+            <div id="logo">
+              <a href="index.html"><h1>Help <span>Desk</span> | Inicio</h1></a>
+            </div>
+            <!-- btnMenu-Mobile -->
+            <!-- 
+            // Esse botão só ira aparecer para dispositivos com a tela onde a resolução é inferior a 620px
+            // Style: Position: Fixed
+           -->
+            <button id="btnMenu-Mobile"><img src="img/menu/menu-black-18dp/2x/baseline_menu_black_18dp.png"
+                alt="Icon-btn-mobile"></button>
+            <!-- btnMenu-Mobile -->
+            <div id="menu">
+              <a href="index.html">Inicio</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Vídeos</a>
+              <a href="#">Scripts</a>
+              <a href="#">Downloads</a>
+              <a href="#">Livros</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="wh-Content">
+        <div class="limit">
+          <div id="headerContent">
+            <div id="apps-support-remote">
+              <div id="btns-apps-remote">
+                <h1>Suporte Remoto</h1>
+                <li onclick='btnMenuTV()' class="btnApps">
+                  <p>Team Viewer</p><img src="img/suporte/icon-teamviewer.png" alt="icon-teamviewer">
+                </li>
+                <li onclick='btnMenuAD()' class="btnApps">
+                  <p>Any Desk</p><img src="img/suporte/icon-anydesk.png" alt="icon-anydesk">
+                </li>
+                <li onclick='btnMenuAA()' class="btnApps">
+                  <p>Aero Admin</p><img src="img/suporte/icon-aeroadmin.png" alt="icon-aeroadmin">
+                </li>
+                <!-- Box Float -->
+                <div class="box-btnApps" id="btn-teamviewer">
+                  <a href="#">Baixe Agora</a>
+                  <a href="#">Acesse o site</a>
+                </div>
+                <div class="box-btnApps" id="btn-anydesk">
+                  <a href="#">Baixe Agora</a>
+                  <a href="#">Acesse o site</a>
+                </div>
+                <div class="box-btnApps" id="btn-aeroadmin">
+                  <a href="#">Baixe Agora</a>
+                  <a href="#">Acesse o site</a>
+                </div>
+                <!-- Box Float -->
+              </div>
+              <div id="generate-password">
+                <div class="container">
+                  <h2>Gerador de senhas</h2>
+                  <div class="result-container">
+                    <span id="result"></span>
+                    <button class="btn" id="clipboard">
+                      <img src="/img/senha/icon-copy.png" alt="icon-copy">
+                    </button>
+                  </div>
+                  <div class="settings">
+                    <div class="setting">
+                      <label for="length">
+                        Comprimento da senha</label>
+                      <input type="number" id="length" min="4" max="20" value="20" />
+                    </div>
+                    <div class="setting">
+                      <label for="uppercase">Incluir letras maiúsculas</label>
+                      <input type="checkbox" id="uppercase" checked />
+                    </div>
+                    <div class="setting">
+                      <label for="lowercase">Incluir letras minúsculas</label>
+                      <input type="checkbox" id="lowercase" checked />
+                    </div>
+                    <div class="setting">
+                      <label for="numbers">Incluir números</label>
+                      <input type="checkbox" id="numbers" checked />
+                    </div>
+                    <div class="setting">
+                      <label for="symbols">Incluir símbolos</label>
+                      <input type="checkbox" id="symbols" checked />
+                    </div>
+                  </div>
+                  <button class="btn btn-large" id="generate">Gerar a senha</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- CONTEUDO GLOBAL DA PAGINA -->
+    <section id="sec-division">
+      <div class="limit">
+        <div id="sidebar">
+
+        </div>
+        <div id="global-content">
+          <div id="scripts-destaque">
+            <div class="box-scripts-destaque">
+              
+            </div>
+            <div class="box-scripts-destaque">
+              
+            </div>
+            <div class="box-scripts-destaque">
+              
+            </div>
+            <div class="box-scripts-destaque">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= -->
+
+  <!-- div Interface -->
+  </div>
+  <!-- scripts -->
+  <script src="src/js/senha.js"></script>
+  <script src="src/js/menu.js"></script>
+</body>
+
+</html>

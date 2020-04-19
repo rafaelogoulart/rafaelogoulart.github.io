@@ -1,0 +1,88 @@
+/* btnMenu-Mobile */
+button#btnMenu-Mobile
+{
+  display: none;
+}
+
+/* btnApps-Remoto */
+.btnApps
+{
+  width: 240px;
+  height: 60px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #0779e4;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+}
+.btnApps p
+{
+  margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16pt;
+  text-decoration: none;
+}
+.btnApps img
+{
+  width: 40px;
+  margin-right: 0;
+  border-radius: 8px;
+}
+/* box-btnApps */
+.box-btnApps
+{
+  width: 220px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #0779e4;
+  border-radius: 8px;
+  padding: 8px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+.box-btnApps a
+{
+  display: block;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 7px;
+  padding: 8px;
+  height: 50px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #3690e4;
+}
+.box-btnApps::after
+{
+  content: '';
+  border-top: 20px solid #0779e4;
+  border-left: 0px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-right: 20px solid transparent;
+  position: absolute;
+  top: 50px;
+  left: -10px;
+  transform: rotate(-45deg);
+}
+#btn-teamviewer
+{
+  display: none;
+  top: 10px;
+}
+#btn-anydesk
+{
+  display: none;
+  top: 80px;
+}
+#btn-aeroadmin
+{
+  display: none;
+  top: 150px;
+}

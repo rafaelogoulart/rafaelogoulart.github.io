@@ -1,0 +1,56 @@
+/* btnMenu-Mobile */
+button#btnMenu-Mobile
+{
+  display: none;
+}
+
+header
+{
+  width: 100%;
+  background-color: #4cbbb9;
+}
+#ml-wrapper
+{
+  background-color: #0779e4;
+}
+#ml-header
+{
+  width: 100%;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+}
+
+/* logo */
+
+#logo
+{
+  margin-left: 0;
+}
+#logo h1
+{
+  color: white;
+  font-family: help-logo;
+}
+#logo h1 span
+{
+  font-family: desk-logo;
+}
+#menu
+{
+  display: flex;
+  flex-direction: row;
+  margin-right: 0;
+}
+#menu a
+{
+  display: block;
+  text-decoration: none;
+  padding: 10px 10px;
+  color: white;
+}
+#menu a:hover
+{
+  color: rgb(158, 158, 158);
+}

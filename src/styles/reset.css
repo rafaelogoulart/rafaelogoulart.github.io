@@ -1,0 +1,16 @@
+*
+{
+  margin: 0 auto;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* limit */
+.limit
+{
+  max-width: 1080px;
+  min-width: 1080px;
+}
