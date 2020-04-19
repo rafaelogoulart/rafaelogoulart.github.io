@@ -1,2 +1,0 @@
-# rafaelogoulart.github.io
-
